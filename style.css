@@ -1,0 +1,56 @@
+body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #1e3c72, #2a5298);
+      color: #ffffff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .card {
+      background-color: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      border-radius: 15px;
+      padding: 30px;
+      max-width: 400px;
+      text-align: center;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    }
+
+    .card h1 {
+      margin-bottom: 10px;
+      font-size: 2em;
+    }
+
+    .card p {
+      font-size: 1.1em;
+      line-height: 1.6;
+    }
+
+    .skills {
+      margin-top: 20px;
+    }
+
+    .skills span {
+      display: inline-block;
+      background: rgba(255, 255, 255, 0.2);
+      border-radius: 20px;
+      padding: 5px 15px;
+      margin: 5px;
+      font-size: 0.9em;
+    }
+
+    .social a {
+      display: inline-block;
+      margin: 10px 10px 0 10px;
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .social a:hover {
+      text-decoration: underline;
+    }
